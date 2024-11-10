@@ -1,0 +1,11 @@
+.button {
+    all: unset;
+    background-color: #FB754C;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    color: #E4EFEF;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 1rem;
+    cursor: pointer;
+}

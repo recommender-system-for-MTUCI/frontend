@@ -1,0 +1,28 @@
+.container {
+    width: 30%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.label {
+    font-size: 20px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerCode {
+    display: flex;
+    gap: 10px
+}

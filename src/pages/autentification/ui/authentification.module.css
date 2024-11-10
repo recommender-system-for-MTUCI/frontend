@@ -1,0 +1,49 @@
+
+.container {
+    width: 100%;
+    min-height: 100dvh;
+    margin-top: 20%;
+}
+
+.containerSelectOption {
+    display: flex;
+    margin: auto;
+    width: 30%;
+    min-width: 400px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.selectedOption {
+    color: #E4EFEF;
+    width: 48%;
+    background-color: #188C8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 0.5rem;   
+    animation: buttonAnimationSelected 0.2s; 
+}
+
+.option {
+    color: #E4EFEF;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+@keyframes buttonAnimationSelected {
+    0% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
